@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-main{
+  display: flex;
+  align-items: center;
+  background-color: #161616;
+  height: 600px;
+  width: 80%;
+  border-radius: 15px;
+  color: white;
+  margin: 40px;
+  padding: 30px;
+  margin: 60px auto 0px auto;
+}
+
+.jjj p{
+  margin: 0px 10px;
+}
+
+.way{
+  text-align: center;
+}
+
+.two{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 40px;
+  margin: 0px 200px 0px auto;
+}
+
+.jump{
+  box-shadow: 0 0 20px -18px;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.jjj{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.jjj .img-one{
+  width: 100%;
+}
+
+
+.jjj .img-two{
+  width: 100%;
+}
+
+.img-main img{
+  margin-top: 66px;
+  height: 600px;
+  width: 100%;
+}
+.one{
+  border-radius: 10px;
+  background-color: #161616;
+  height: 230px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.one div{
+  text-align: center;
+  margin: 18px 0px;
+  align-items: center;
+}
+
+.basic-div{
+  display: flex;
+  margin-left: 5px;
+}
+
+.lll{
+  box-shadow: 0 0 20px -18px;
+  width: 70%;
+  border-radius: 5px;
+}
+
+.lll img{
+  width: 100%;
+}
+
+.span-img img{
+  height: 22px;
+  width: 22px;
+  margin-left: 20px;
+}
+
+.fle{
+  display: flex;
+}
+
+.one{
+  margin-left: 160px;
+}
+
+.gridd{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row-gap: 24px;
+  place-items: center; 
+}
+
+.flexxi{
+  display: flex;
+}
+
+.flexxi .rr{
+  margin-left: 5px;
+}
+
+.footer{
+  background-color: #161616;
+  color: white;
+  height: 200px;
+  text-align: center;
+}
+
+
+.footer h1{
+  padding-top: 40px;
+}
+
+hr{
+  width: 60% ;
+}
+
+
+.footer a{
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-weight: 300;
+}
+
+.lll a{
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 0px 5px;
+  border-radius: 4px;
+}
+
+.one-one a{
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  padding: 13px 50px;  
+  
+}
+
+.one-one-t a{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  padding: 13px 82px; 
+}
+
+
+
+.one-one-h a{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  padding: 13px 101px; 
+}
+
+
+.one  .one-one{
+  text-decoration: none;
+  color: #161616;
+}
+
+
+
+
+.main{
+  width: 50%;
+}
+
+.main a{
+  text-decoration: none;
+  background-color: #DD0000;
+  color: white;
+  padding: 10px 20px;
+}
