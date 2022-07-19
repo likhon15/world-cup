@@ -201,3 +201,15 @@ hr{
   color: white;
   padding: 10px 20px;
 }
+
+
+
+/* Mobile Device*/
+@media only screen and (max-width: 688px) {
+  
+}
+
+/* Tablet Devices */
+@media only screen and (min-width: 689px) and (max-width:992px) {
+
+}
