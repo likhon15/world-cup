@@ -255,5 +255,45 @@ hr{
 
 /* Tablet Devices */
 @media only screen and (min-width: 689px) and (max-width:992px) {
+  .main-main{
+    flex-direction: column;
+    height: 100%;
+    
+    width: 80%;
+   }
 
+   .img-main img{
+    width: 100%;
+    
+   }
+   .basic-div{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+   }
+   .one{
+    flex-direction: column;
+    background-color: white;
+    margin:  0 auto;
+   }
+
+   .one-one a{
+    border: 1px solid lightgray;
+   }
+
+   .one-one-h a{
+    border: 1px solid lightgray;
+   }
+
+   .one-one-t a{
+    border: 1px solid lightgray;
+   }
+
+  
+   .two{
+    flex-direction: column;
+    grid-template-columns: repeat(2,1fr);
+   }
 }
