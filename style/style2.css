@@ -161,7 +161,7 @@ hr{
   color: white;
   background-color: red;
   border-radius: 5px;
-  padding: 3% 0%;
+  padding: 4% 18%;
   
 }
 
@@ -180,7 +180,7 @@ hr{
   color: black;
   background-color: white;
   border-radius: 5px;
-  padding: 3% 15%;
+  padding: 3% 25%;
 }
 
 
@@ -188,12 +188,55 @@ hr{
   text-decoration: none;
   color: #161616;
 }
+.one-one-t a{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  padding: 4% 29%;
+  transition: background-color, 0.2s;
+}
+.one-one-t a:hover{
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  padding: 4% 29%;
+}
+
+.one-one-h a{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  padding: 4% 35%;
+  transition: background-color, 0.2s;
+}
+.one-one-h a:hover{
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  padding: 4% 35%;
+}
 
 .lol {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
 }
-
+.main a{
+  text-decoration: none;
+  background-color: #DD0000;
+  color: white;
+  padding: 10px 20px;
+  transition: background-color, 0.2s;
+}
+.main a:hover{
+  text-decoration: none;
+  background-color: white;
+  color: red;
+  padding: 10px 20px;
+}
 
 .main{
   width: 50%;
@@ -228,6 +271,8 @@ hr{
    .main-main img{
     width: 100%;
    }
+
+   
      
    .main{
     width: 100%;
