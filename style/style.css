@@ -119,6 +119,11 @@ hr{
   border-radius: 4px;
 }
 
+.lol {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
 .one-one a{
   text-decoration: none;
   color: black;
@@ -190,7 +195,6 @@ hr{
     width: 240px;
    }
 
-   
    .basic-div{
     flex-direction: column;
     align-items: center;
