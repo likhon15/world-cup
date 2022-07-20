@@ -168,9 +168,8 @@ hr{
 .one-one-t a{
   text-decoration: none;
   color: black;
-  background-color: red;
+  background-color: white;
   border-radius: 5px;
-  color: white;
   padding: 3% 1%;
 }
 
@@ -311,6 +310,7 @@ hr{
 
    .one{
     height: 0%;
+    margin-bottom: 30px;
    }
 
   
