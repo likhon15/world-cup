@@ -159,6 +159,18 @@ hr{
 }
 
 
+.hidd{
+  display: none;
+  background-color: #DD0000;
+  padding: 1px 15px;
+  width: 120px;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-top: 110px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
 
 
 .main{
@@ -197,6 +209,7 @@ hr{
      
    .main{
     width: 100%;
+    text-align: center;
    }
    .img-main img{
     height: 284px;
@@ -261,8 +274,21 @@ hr{
    }
    .img-main img{
     width: 100%;
-    
    }
+
+   .hidd{
+    display: block;
+    background-color: #DD0000;
+    padding: 1px 15px;
+    width: 120px;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 110px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+  }
+
    .basic-div{
     flex-direction: column;
     align-items: center;

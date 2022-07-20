@@ -231,6 +231,7 @@ hr{
      
    .main{
     width: 100%;
+    text-align: center;
    }
    .img-main img{
     height: 284px;
