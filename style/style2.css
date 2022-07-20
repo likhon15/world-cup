@@ -212,13 +212,7 @@ hr{
   padding: 4% 35%;
   transition: background-color, 0.2s;
 }
-.one-one-h a:hover{
-  text-decoration: none;
-  color: white;
-  background-color: red;
-  border-radius: 5px;
-  padding: 4% 35%;
-}
+
 
 .lol {
   font-family: 'Poppins', sans-serif;
@@ -392,5 +386,46 @@ hr{
     width: 100%;
     margin-top: 66px;
     height: 500px;
+  }
+  .one-one a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 50px;
+    transition: background-color, 0.2s;
+  }
+  /* hover */
+  .one-one a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px 50px;
+  }
+  
+  .one-one-t a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 50px;
+    transition: background-color, 0.2s;
+  }
+  .one-one-t a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px 50px;
+  }
+  
+  
+  .one-one-h a{
+    text-decoration: none;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 50px;
   }
 }
