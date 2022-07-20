@@ -243,7 +243,22 @@ hr{
   padding: 10px 20px;
 }
 
+.one-one-h a{
+  text-decoration: none;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  padding: 4% 35%;
+  transition: background-color, 0.2s;
+}
 
+.one-one-h a:hover{
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  padding: 4% 35%;
+}
 
 /* Mobile Device*/
 @media only screen and (max-width: 688px) {
