@@ -124,16 +124,17 @@ hr{
   color: black;
   background-color: white;
   border-radius: 5px;
-  padding: 13px 50px;  
+  padding: 4% 0%; 
   
 }
 
 .one-one-t a{
   text-decoration: none;
   color: black;
-  background-color: white;
+  background-color: red;
   border-radius: 5px;
-  padding: 13px 82px; 
+  color: white;
+  padding: 4% 15%;
 }
 
 
@@ -144,7 +145,7 @@ hr{
   background-color: red;
   border-radius: 5px;
   color: white;
-  padding: 13px 101px; 
+  padding: 4% 22%;
 }
 
 
@@ -171,17 +172,26 @@ hr{
 
 /* Mobile Device*/
 @media only screen and (max-width: 688px) {
-   .main-main{
+  .main-main{
     flex-direction: column;
-    height: 100%;
+    min-height: 10%;
     
     width: 80%;
    }
 
-   .img-main img{
+   .main-main img{
     width: 100%;
-    
    }
+     
+   .main{
+    width: 100%;
+   }
+   .img-main img{
+    height: 284px;
+    width: 250px;
+   }
+
+   
    .basic-div{
     flex-direction: column;
     align-items: center;
@@ -195,6 +205,8 @@ hr{
     margin:  0 auto;
    }
 
+   
+
    .one-one a{
     border: 1px solid lightgray;
    }
@@ -205,6 +217,15 @@ hr{
 
    .one-one-t a{
     border: 1px solid lightgray;
+   }
+
+   .one-one-t a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 4% 15%;
    }
 
   
@@ -222,7 +243,11 @@ hr{
     
     width: 80%;
    }
-
+   
+   .two{
+      grid-template-columns: repeat(2,1fr);
+      margin:  0 auto;
+   }
    .img-main img{
     width: 100%;
     
@@ -235,21 +260,32 @@ hr{
     place-items: center;
    }
    .one{
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
     background-color: white;
     margin:  0 auto;
    }
 
+
    .one-one a{
     border: 1px solid lightgray;
+    padding: 5px 50px;
    }
 
    .one-one-h a{
     border: 1px solid lightgray;
+    padding: 5px 50px;
    }
 
    .one-one-t a{
     border: 1px solid lightgray;
+    padding: 5px 50px;
+   }
+
+   .one{
+    height: 0%;
    }
 
   
@@ -257,4 +293,23 @@ hr{
     flex-direction: column;
     grid-template-columns: repeat(2,1fr);
    }
+
+   .main-main{
+    display: flex;
+    align-items: center;
+    background-color: #161616;
+    height: 500px;
+    width: 80%;
+    border-radius: 15px;
+    color: white;
+    margin: 40px;
+    padding: 30px;
+    margin: 60px auto 0px auto;
+  }
+
+  .img-main img{
+    width: 100%;
+    margin-top: 66px;
+    height: 500px;
+  }
 }
