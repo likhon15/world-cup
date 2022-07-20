@@ -158,8 +158,8 @@ hr{
 
 .one-one a{
   text-decoration: none;
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: red;
   border-radius: 5px;
   padding: 3% 0%;
   
@@ -178,9 +178,8 @@ hr{
 .one-one-h a{
   text-decoration: none;
   color: black;
-  background-color: red;
+  background-color: white;
   border-radius: 5px;
-  color: white;
   padding: 3% 15%;
 }
 
