@@ -217,6 +217,14 @@ hr{
     width: 80%;
    }
 
+   .footer a{
+    display: block;
+   }
+
+   .footer{
+     height: 400px;
+   }
+
    .main-main img{
     width: 100%;
    }
