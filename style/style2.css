@@ -307,6 +307,14 @@ hr{
     grid-template-columns: repeat(1,1fr);
     margin: 0 auto;
    }
+   .one-one-h a:hover{
+    text-decoration: none;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    padding: 4% 35%;
+  }
+  
 }
 
 /* Tablet Devices */
@@ -389,21 +397,13 @@ hr{
   }
   .one-one a{
     text-decoration: none;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: red;
     border-radius: 5px;
     padding: 5px 50px;
     transition: background-color, 0.2s;
   }
   /* hover */
-  .one-one a:hover{
-    text-decoration: none;
-    color: white;
-    background-color: red;
-    border-radius: 5px;
-    padding: 5px 50px;
-  }
-  
   .one-one-t a{
     text-decoration: none;
     color: black;
@@ -422,6 +422,15 @@ hr{
   
   
   .one-one-h a{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 5px 50px;
+    transition: background-color, 0.2s;
+  }
+
+  .one-one-h a:hover{
     text-decoration: none;
     background-color: red;
     border-radius: 5px;
